@@ -1,20 +1,20 @@
 # analyse_results
-# Analyse
-## Configuration
+## Analyse
+### Configuration
 Update the path (output_path, parse2csv_name, csv2dpdbtw_name) in **Constant.py**
-## Usage
+### Usage
 ```python
 python3 parse_json.py
 python3 parse2csv.py
 python3 csv2dpdbtw.py
 ```
 
-# Plots
-## Configuration
-Update the path (CSV_NAME_all_in) with your output csv from csv2dpdbbtw.py  in **constants.py **
-## Filter
+## Plots
+### Configuration
+Update the path (CSV_NAME_all_in) with your output csv from csv2dpdbbtw.py  in **constants.py**
+### Filter
 Uncomment the filters in each plot script you want to apply filter on it.
-## Usage
+### Usage
 [1e_plot_solved_wrt_projections_all_solvers.py](https://github.com/maliabd-al-majid/analyse_results/blob/main/plots_output_tool/plots/1e_plot_solved_wrt_projections_all_solvers.py)
 ```python
 python3 1e_plot_solved_wrt_projections_all_solvers.py
